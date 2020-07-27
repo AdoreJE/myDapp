@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="bundle.js" defer></script>
+  </head>
+  <body>
+    <article class="info">
+      <h1>Accounts Info</h1>
+      <div>
+        Accounts :
+        <select name="accounts" class="accounts"></select>
+        Balance : <span id="balance"></span>
+      </div>
+    </article>
+    <hr />
+    <article class="func">
+      <h1>send a ETH</h1>
+      <p>send a ETH from address to another.</p>
+      <div>
+        From:
+        <select name="" class="accounts" id="fromAddr"></select>
+      </div>
+      <div>
+        To:
+        <select name="" class="accounts" id="toAddr"></select>
+      </div>
+      <div>
+        Value:
+        <input type="text" name="" id="value" />
+      </div>
+      <div>
+        Password:
+        <input type="password" name="" id="password" />
+      </div>
+      <input type="button" value="Send" class="Btn" id="sendBtn" />
+    </article>
+    <hr />
+    <article>
+      <pre id="log"></pre>
+    </article>
+  </body>
+</html>
