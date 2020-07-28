@@ -1,7 +1,5 @@
 # myDapp
 
-## myDapp - walletApp
-
 ## myDapp - studentApp
 
 ### 필요사항
@@ -17,3 +15,27 @@ npm module
 - truffle
 - web3
 - browserify
+
+### 실행방법
+
+1. 파일 다운
+
+```bash
+git clone https://github.com/AdoreJE/myDapp
+cd myDapp/studentApp
+```
+
+2. 모듈 설치
+
+```bash
+npm install --save
+npm install -g browserify
+```
+
+3. bundle.js 생성
+
+```bash
+browserify main.js -o bundle.js
+```
+
+4. index.html 실행
