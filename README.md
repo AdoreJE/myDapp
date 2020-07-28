@@ -1,8 +1,8 @@
 # myDapp
 
-## myDapp - walletApp
+## [myDapp - walletApp](https://github.com/AdoreJE/myDapp/tree/master/walletApp)
 
-## myDapp - studentApp
+## [myDapp - studentApp](https://github.com/AdoreJE/myDapp/tree/master/studentApp)
 
 ### 필요사항
 
